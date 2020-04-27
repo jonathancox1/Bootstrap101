@@ -1,204 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/771e6a2d5d.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css">
 
-    <title>Otil | Contact Us</title>
-  </head>
-  <body>
-    <!-- main container start -->
-    <div
-      class="container rounded px-5"
-      id="grad"
-    >
-      <!-- header/navbar -->
-      <div class="row">
-        <div class="col-md-12">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/771e6a2d5d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Otil | Contact Us</title>
+</head>
+
+<body>
+  <!-- main container start -->
+  <div class="container rounded" style="background-color: rgb(229, 239, 226);">
+    <!-- header/navbar -->
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- search -->
+          <div>
+            <div class="form-group border rounded m-1 p-1">
+              <input type="email" class="from-control pl-1" id="emailInput" placeholder="email" style="border: none;">
+              <button class="btn btn-outline-none">Join Us</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- main content -->
+    <div class="row" id='grad'>
+      <div class="col-xl-4 p-5 d-inline">
+        <strong class="display-4" style="color: rgb(11, 58, 94);"><b>So you're ready to talk!</b></strong>
+        <div class="text-black-50 pt-1">Give us a shout, were here for you and ready to get started!! Projects that are
+          huge
+          or if they're just an idea, give us all the details
+          and we'll be in touch</div>
+      </div>
+      <div class="col-xl-8 p-5 d-inline">
+        <form>
+          <div class="form-group">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="name" name="name_entered" class="form-control" minlength="5"
+                title="Enter Your Name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" for="email" name="email_entered" class="form-control" title="Email"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input id="password" type="password" name="password_entered" class="form-control" minlength="6"
+                maxlength="15" title="password" required />
+            </div>
+
+            <div class="form-group">
+              <label for="text_input">Outline your project</label>
+              <textarea class="form-control" id="text_input" rows="3" maxlength="250" title="project details"
+                required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="regex">Are you a robot?!</label>
+              <input placeholder="3+3=?" id="regex" type="text" class="form-control" pattern="3+3=6" title="3+3=?"
+                required />
+            </div>
+
+
+            <button type="submit" class="btn btn-outline-primary" style="width: 200px">
+              Submit
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-            <!-- search -->
-            <div>
-                <div class="form-group border rounded m-1 p-1">
-                    <input type="email" class="from-control pl-1" id="emailInput" placeholder="email" style="border: none;">
-                    <button class="btn btn-outline-none">Join Us</button>
-                </div>
-            </div>
-          </nav>
-        </div>
+        </form>
+
+
       </div>
-      <!-- main content -->
-      <div class="row">
-          <div class="col-xl-4 p-4 mx-auto">
-            <strong class="display-4" style="color: rgb(11, 58, 94);"><b>So you're ready to talk!</b></strong>
-              <div class="text-black-50">Give us a shout, were here for you and ready to get started!!  Give us all the details of your project.</div>
-          </div>
-          <div class="col-xl-8 p-4">
-            <form>
-              <div class="form-group">
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input
-                    id="name"
-                    type="name"
-                    name="name_entered"
-                    class="form-control"
-                    minlength="5"
-                    title="Enter Your Name"
-                    required
-                  />
-                </div>
-  
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  id="email"
-                  type="email"
-                  for="email"
-                  name="email_entered"
-                  class="form-control"
-                  title="Email"
-                  required
-                />
-              </div>
-  
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input
-                  id="password"
-                  type="password"
-                  name="password_entered"
-                  class="form-control"
-                  minlength="6"
-                  maxlength="15"
-                  title="password"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="text_input">Outline your project</label>
-                <textarea class="form-control" id="text_input" rows="3" maxlength="250" title="project details" required></textarea>
-              </div>
-
-              <div class="form-group">
-                <label for="regex">Are you a robot?!</label>
-                <input
-                  placeholder="3+3=?"
-                  id="regex"
-                  type="text"
-                  class="form-control"
-                  pattern="3+3=6"
-                  title="3+3=?"
-                  required
-                />
-              </div>
-
-  
-              <button type="submit" class="btn btn-block btn-outline-primary">
-                Submit
-              </button>
-            </form>
-  
-
-          </div>
-      </div>
+    </div>
 
 
     <!-- footer -->
     <div class="container">
       <div class="row p-5" id="footer_nav">
-          <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">COMPANY</strong>
-              <div class="py-2"><a href="#" class="text-muted">About</a></div>
-              <div class="py-2"><a href="#" class="text-muted">Blog</a></div>
-              <div class="py-2"><a href="#" class="text-muted">Press</a></div>
-          </div>
-          <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">PARTNERS</strong>
-              <div class="py-2"><a href="#" class="text-muted">Advertise</a></div>
-              <div class="py-2"><a href="#" class="text-muted">Affiliates</a></div>
-              <div class="py-2"><a href="#" class="text-muted">Career</a></div>    
-          </div>
-          <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">SUPPORT</strong>
-              <div class="py-2"><a href="#" class="text-muted">Help Center</a></div>
-              <div class="py-2"><a href="#" class="text-muted">Contact Us</a></div>
-              <div class="py-2"><a href="#" class="text-muted">Terms & Privacy</a></div>
-  </div>
-          <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">SUBSCRIBE</strong>
-              <div class="py-2">
-                  <div class="input-group mb-3">
-                      <input type="text" class="form-control" placeholder="email">
-                      <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button" id="button-addon2">Join Us</button>
-                      </div>
-                    </div>
-              </div>
-              <div>
-                  <i class="fab fa-facebook p-2"></i>
-                  <i class="fab fa-instagram p-2"></i>
-                  <i class="fab fa-twitter p-2"></i>
-                  <i class="fab fa-youtube p-2"></i>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- copyright -->
-    <div class="container mb-4">
-        <hr>
-        <div class="row justify-content-center">
-            <img src="images/logo2.png">
-            <div class="h-100 text-center pt-2">
-            2020 Otil | All Rights Reserved
-            </div>
+        <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">COMPANY</strong>
+          <div class="py-2"><a href="#" class="text-muted">About</a></div>
+          <div class="py-2"><a href="#" class="text-muted">Blog</a></div>
+          <div class="py-2"><a href="#" class="text-muted">Press</a></div>
         </div>
+        <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">PARTNERS</strong>
+          <div class="py-2"><a href="#" class="text-muted">Advertise</a></div>
+          <div class="py-2"><a href="#" class="text-muted">Affiliates</a></div>
+          <div class="py-2"><a href="#" class="text-muted">Career</a></div>
+        </div>
+        <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">SUPPORT</strong>
+          <div class="py-2"><a href="#" class="text-muted">Help Center</a></div>
+          <div class="py-2"><a href="#" class="text-muted">Contact Us</a></div>
+          <div class="py-2"><a href="#" class="text-muted">Terms & Privacy</a></div>
+        </div>
+        <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">SUBSCRIBE</strong>
+          <div class="py-2">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="email">
+              <div class="input-group-append">
+                <button class="btn btn-outline-primary" type="button" id="button-addon2">Join Us</button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <i class="fab fa-facebook p-2"></i>
+            <i class="fab fa-instagram p-2"></i>
+            <i class="fab fa-twitter p-2"></i>
+            <i class="fab fa-youtube p-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright -->
+    <div class="container mb-4">
+      <hr>
+      <div class="row justify-content-center">
+        <img src="images/logo2.png">
+        <div class="h-100 text-center pt-2">
+          2020 Otil | All Rights Reserved
+        </div>
+      </div>
     </div>
 
-    
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
