@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/771e6a2d5d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap | UI</title>
+  </head>
+  <body>
+    <div
+      class="container rounded px-5"
+      style="background-color: rgb(229, 239, 226);"
+    >
+      <!-- header/navbar -->
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <!-- search -->
+            <div>
+                <div class="form-group border rounded m-1 p-1">
+                    <input type="email" class="from-control pl-1" id="emailInput" placeholder="email" style="border: none;">
+                    <button class="btn btn-outline-none">Join Us</button>
+                </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- main content -->
+      <div class="row">
+        <div class="col-xl-6 d-flex"><img src="images/image1.png"></div>
+        <div class="col-xl-6 p-4 my-auto d-flex">
+          <div>
+            <strong class="display-4" style="color: rgb(11, 58, 94);"
+              ><b>We help you grow your Instagram audience.</b></strong
+            >
+            <!-- blurb boxes -->
+            <div class="row">
+              <div class="col-md-6">
+                <i class="fas fa-check-circle p-2 text-secondary"></i>Get a
+                better-looking profile
+              </div>
+              <div class="col-md-6">
+                <i class="fas fa-check-circle p-2 text-secondary"></i>Get more
+                sales and grow
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <i class="fas fa-check-circle p-2 text-secondary"></i>Get eye catching content
+              </div>
+              <div class="col-md-6">
+                <i class="fas fa-check-circle p-2 text-secondary"></i>Earn money with your profile
+              </div>
+            </div>
+            <div class="row pt-2">
+              <div class="col-md-6"><button class="btn btn-primary btn-lg btn-block">Get Started</div>
+              <div class="col-md-6"><button class="btn btn-outline-primary btn-lg btn-block">Contact Us</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container ending div -->
+    </div>
+    <!-- brands bar -->
+    <div class="container p-5">
+      <div class="row"><div class="col-md-12 text-center" style="color: rgb(75, 154, 215);"><h5>Clients</h5></div></div>
+      <div class="row"><div class="col-md-12 text-center" style="color: rgb(32, 32, 74);"><h1>Brands suppporting us</h1></div></div>
+      <div class="row"><div class="col-md-12 m-auto"><img src="images/brands.png"></div></div>
+    </div>
+    <!-- things -->
+    <div class="container rounded p-5" id="grad">
+        <div class="row text-center m-5">
+            <div class="col-md-12"><h1><b>Lets start with the basics</b></h1></div>
+        </div>
+        <div class="row m-5">
+            <div class="col-md-4"><div class="card shadow" style="width: 18rem; background-color: rgb(249, 254, 248);">
+                <div class="card-body m-4">
+                    <img src="images/photo.png" width="100px" id="box">
+                  <h5 class="card-title p-2">Profile Picture</h5>
+                  <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div></div>
+            <div class="col-md-4"><div class="card shadow" style="width: 18rem; background-color: rgb(249, 254, 248);" id="box">
+                <div class="card-body m-4">
+                    <img src="images/username.png" width="100px">
+                  <h5 class="card-title p-2">Username</h5>
+                  <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div></div>
+            <div class="col-md-4"><div class="card shadow" style="width: 18rem; background-color: rgb(249, 254, 248);" id="box">
+                <div class="card-body m-4 p">
+                    <img src="images/feed.png"alt="..." width="100px">
+                  <h5 class="card-title p-2">Feed Theme</h5>
+                  <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div></div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container">
+        <div class="row p-5" id="footer_nav">
+            <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">COMPANY</strong>
+                <div class="py-2"><a href="#" class="text-muted">About</a></div>
+                <div class="py-2"><a href="#" class="text-muted">Blog</a></div>
+                <div class="py-2"><a href="#" class="text-muted">Press</a></div>
+            </div>
+            <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">PARTNERS</strong>
+                <div class="py-2"><a href="#" class="text-muted">Advertise</a></div>
+                <div class="py-2"><a href="#" class="text-muted">Affiliates</a></div>
+                <div class="py-2"><a href="#" class="text-muted">Career</a></div>    
+            </div>
+            <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">SUPPORT</strong>
+                <div class="py-2"><a href="#" class="text-muted">Help Center</a></div>
+                <div class="py-2"><a href="#" class="text-muted">Contact Us</a></div>
+                <div class="py-2"><a href="#" class="text-muted">Terms & Privacy</a></div>
+    </div>
+            <div class="col-lg-3"><strong style="color: rgb(32, 32, 74);">SUBSCRIBE</strong>
+                <div class="py-2">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="email">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-primary" type="button" id="button-addon2">Join Us</button>
+                        </div>
+                      </div>
+                </div>
+                <div>
+                    <i class="fab fa-facebook p-2"></i>
+                    <i class="fab fa-instagram p-2"></i>
+                    <i class="fab fa-twitter p-2"></i>
+                    <i class="fab fa-youtube p-2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="container mb-4">
+        <hr>
+        <div class="row justify-content-center">
+            <img src="images/logo2.png">
+            <div class="h-100 text-center pt-2">
+            2020 Otil | All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
