@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Overlaping images | bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/771e6a2d5d.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 align-items-stretch"
+                style="background-image: url(http://picsum.photos/600/800); height: 700px">
+                <div class="row">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4">
+                        <!-- top right card -->
+                        <div class="card mt-n4 ml-4" style="width: 12rem;">
+                            <img class="card-img-top" src="http://picsum.photos/200" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text text-center">placeholder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style="height: 200px">
+                    </div>
+                </div>
+                <!-- bottom left image -->
+                <div class="row">
+                    <div class="col-md-12 ml-n5 d-flex justify-content-start">
+                        <img src="http://picsum.photos/300" alt="img" class="img rounded-circle">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-right pl-5 d-flex align-items-baseline">
+                <strong class="display-4 align-items-baseline" style=" color: rgb(11, 58, 94);">overlapping images, as
+                    seen on the left. not as easy as i thought</strong>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
